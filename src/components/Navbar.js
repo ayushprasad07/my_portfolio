@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">Portfolio</a>
+          <Link className="navbar-brand" to="/">Portfolio</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -27,7 +27,7 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="d-flex justify-content-center justify-content-lg-end">
-              <a href="https://github.com/" className="text-white mx-2" style={{ fontSize: "1.5rem" }}>
+              <a href="https://github.com/ayushprasad07" className="text-white mx-2" style={{ fontSize: "1.5rem" }}>
                 <i className="bi bi-github"></i>
               </a>
               <a href="/" className="text-white mx-2" style={{ fontSize: "1.5rem" }}>
